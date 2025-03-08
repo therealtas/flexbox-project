@@ -1,0 +1,153 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    font-family: Roboto;
+    min-height: 100vh;
+
+}
+
+.first{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    gap: 100px;
+    background-color:#1F2937;
+    
+}
+
+.content-one{
+    flex: 1;
+    display:flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px
+}
+
+.header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 10px 50x;
+
+}
+
+ul{
+    display:flex;
+    list-style-type:none;
+    padding: 0px;
+    margin: 0px;
+    gap: 20px;
+    
+}
+.main{
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px; 
+    margin-bottom:20px;
+}
+.secondary, ul{
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #E5E7EB;
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8
+}
+.jist{
+    max-width: 400px;
+    max-height: 300px;
+    
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    padding: 6px 20px;
+    border-radius: 10px;
+}
+
+.second{
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+
+img{
+    border: 6px solid #3882F6
+}
+
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+.info{
+
+    max-width: 140px;
+    margin-bottom: 100px;
+    text-align:center;
+}
+
+.third{
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 60px;
+}
+
+.quote{
+    max-width: 750px;
+    font-style: italic;
+    color: #1F2937;
+    font-size: 36px;
+}
+ 
+.tic{
+
+    font-size:25px;
+    
+}
+ 
+
+.fourth{ 
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    
+}
+
+.banner{
+    display:flex;
+    padding: 50px 100px;;
+    justify-content: center;
+    gap: 50px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+}
+
+footer{
+  background-color: #1F2937;
+  color: white;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
